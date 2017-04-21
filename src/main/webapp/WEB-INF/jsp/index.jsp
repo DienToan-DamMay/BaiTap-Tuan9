@@ -11,7 +11,7 @@
     <meta http-equiv="Cache-Control" content="no-cache"> 
     <meta http-equiv="Expires" content="Sat, 01 Dec 2001 00:00:00 GMT">
     
-    <title>Nhom 6 | Home</title>
+    <title>Nhom 2 | Home</title>
     
     <link href="static/css/bootstrap.min.css" rel="stylesheet">
      <link href="static/css/style.css" rel="stylesheet">
@@ -39,12 +39,12 @@
 		<c:when test="${mode == 'MODE_HOME'}">
 			<div class="container" id="homeDiv">
 				<div class="jumbotron text-center">
-					<h1>Welcome to Post Manager Nhom 6</h1>
+					<h1> Nhom 2</h1>
 				</div>
 			</div>
 		</c:when>
 		<c:when test="${mode == 'MODE_TASKS'}">
-			<div class="container text-center" id="tasksDiv">
+			<div class="container text-center" id="Post">
 				<h3>My Post</h3>
 				<hr>
 				<div class="table-responsive">
